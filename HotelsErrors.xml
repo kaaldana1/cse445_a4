@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Root element name changed from Hotels to Hotel -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://<your-username>.github.io/<your-repo>/Hotels.xsd">
+
+  <!-- 1st entry: unchanged -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- A required attribute is missing -->
+  <Hotel Rating="4.8">
+    <Name>Bellagio</Name>
+    <Phone>702-693-7111</Phone>
+    <!-- NearestAirport attribute omitted here -->
+    <Address>
+      <Number>3600</Number>
+      <Street>S Las Vegas Blvd</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+    </Address>
+  </Hotel>
+
+  <!--  A Phone element is missing entirely -->
+  <Hotel>
+    <Name>The Plaza</Name>
+    <Address NearestAirport="JFK International">
+      <Number>768</Number>
+      <Street>5th Ave</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10019</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Address element has no closing tag -->
+  <Hotel Rating="4.4">
+    <Name>Marriott Marquis</Name>
+    <Phone>212-398-1900</Phone>
+    <Phone>212-398-7000</Phone>
+    <Address NearestAirport="LaGuardia">
+      <Number>1535</Number>
+      <Street>Broadway</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10036</Zip>
+  
+  <!-- two Name elements provided -->
+  <Hotel>
+    <Name>Hilton Garden Inn San Francisco/Oakland Bay Bridge</Name>
+    <Name>Hilton Bay Bridge</Name>
+    <Phone>415-954-7272</Phone>
+    <Address NearestAirport="San Francisco International">
+      <Number>1800</Number>
+      <Street>Powell St</Street>
+      <City>San Francisco</City>
+      <State>CA</State>
+      <Zip>94133</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>Four Seasons Hotel Los Angeles at Beverly Hills</Name>
+    <Phone>310-273-2222</Phone>
+    <Address NearestAirport="Los Angeles International">
+      <Number>300</Number>
+      <Street>S Doheny Dr</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <Zip>90048</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Ritz-Carlton Chicago</Name>
+    <Phone>312-266-1000</Phone>
+    <Address NearestAirport="O’Hare International">
+      <Number>160</Number>
+      <Street>E Pearson St</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60611</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Hyatt Regency Atlanta</Name>
+    <Phone>404-577-1234</Phone>
+    <Address NearestAirport="Hartsfield–Jackson Atlanta International">
+      <Number>265</Number>
+      <Street>Peachtree St NE</Street>
+      <City>Atlanta</City>
+      <State>GA</State>
+      <Zip>30303</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Omni Parker House</Name>
+    <Phone>617-227-8600</Phone>
+    <Address NearestAirport="Logan International">
+      <Number>60</Number>
+      <Street>School St</Street>
+      <City>Boston</City>
+      <State>MA</State>
+      <Zip>02108</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>The Peninsula Chicago</Name>
+    <Phone>312-337-2888</Phone>
+    <Address NearestAirport="O’Hare International">
+      <Number>108</Number>
+      <Street>E Superior St</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60611</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>W Dallas – Victory</Name>
+    <Phone>214-462-2700</Phone>
+    <Address NearestAirport="DFW International">
+      <Number>1855</Number>
+      <Street>Financial Pl</Street>
+      <City>Dallas</City>
+      <State>TX</State>
+      <Zip>75201</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>The Roosevelt New Orleans, A Waldorf Astoria Hotel</Name>
+    <Phone>504-648-1200</Phone>
+    <Address NearestAirport="Louis Armstrong New Orleans International">
+      <Number>130</Number>
+      <Street>Baronne St</Street>
+      <City>New Orleans</City>
+      <State>LA</State>
+      <Zip>70112</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel>
